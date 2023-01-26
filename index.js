@@ -49,7 +49,7 @@ function updateChange(e) {
         1,
         Math.floor((percent * video.duration) / 10)
     )
-    const previewImgSrc = `previewimgs/img00${previewImgNumber}.jpg`
+    const previewImgSrc = `previewimgs/image00${previewImgNumber}.jpg`
     previewimg.src = previewImgSrc
     timeLineContainer.style.setProperty("--preview-position", percent)
 
